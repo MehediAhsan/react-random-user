@@ -5,7 +5,7 @@ import Users from './components/Users/Users';
 
 function App() {
   return (
-    <div>
+    <div className='bg-gray-700'>
       <Header></Header>
       <Users></Users>
     </div>
