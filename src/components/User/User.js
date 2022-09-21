@@ -43,7 +43,7 @@ const User = (props) => {
         }   
     } = props.user;
     return (
-        <div className='bg-gray-200 px-20 py-10 w-9/12 mx-auto mt-6 rounded'>
+        <div className='bg-gray-600 text-gray-100 px-20 py-10 w-8/12 mx-auto my-6 rounded'>
             <img src={large} alt={first} className='block mx-auto rounded-full' />
             <div className='text-center'>
                 <h3 className='text-2xl font-bold my-3'>{title}. {first} {last}</h3>
@@ -59,14 +59,14 @@ const User = (props) => {
                 </div>
                 <div>
                     <ul>
-                        <li className='flex items-center justify-between my-3'><span className='font-bold'>Street: </span>{number},{name}</li>
-                        <li className='flex items-center justify-between my-3'><span className='font-bold'>Country: </span>{country}</li>
-                        <li className='flex items-center justify-between my-3'><span className='font-bold'>City: </span>{city}</li>
-                        <li className='flex items-center justify-between my-3'><span className='font-bold'>State: </span>{state}</li>
-                        <li className='flex items-center justify-between my-3'><span className='font-bold'>Postal Code: </span>{postcode}</li>
-                        <li className='flex items-center justify-between my-3'><span className='font-bold'>Latitude: </span>{latitude}</li>
-                        <li className='flex items-center justify-between my-3'><span className='font-bold'>Longitude: </span>{longitude}</li>
-                        <li className='flex items-center justify-between my-3'>{offset},{description}</li>
+                        <li className='my-3'><span className='font-bold mr-4'>Street: </span>{number},{name}</li>
+                        <li className='my-3'><span className='font-bold mr-4'>Country: </span>{country}</li>
+                        <li className='my-3'><span className='font-bold mr-4'>City: </span>{city}</li>
+                        <li className='my-3'><span className='font-bold mr-4'>State: </span>{state}</li>
+                        <li className='my-3'><span className='font-bold mr-4'>Postal Code: </span>{postcode}</li>
+                        <li className='my-3'><span className='font-bold mr-4'>Latitude: </span>{latitude}</li>
+                        <li className='my-3'><span className='font-bold mr-4'>Longitude: </span>{longitude}</li>
+                        <li className='my-3'>{offset},{description}</li>
                     </ul>
                 </div>
             </div>
